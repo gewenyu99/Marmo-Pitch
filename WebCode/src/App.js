@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <DirectionButton/>
+        <DirectionButton text=">" bashScript={"cd"}/>
+        <DirectionButton text=">" bashScript={"cd"}/>
+        <DirectionButton text=">" bashScript={"cd"}/>
       </div>
     );
   }
